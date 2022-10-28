@@ -1,0 +1,23 @@
+[
+	{
+		"namespace": "xmasapi",
+		"functions": [
+			{
+				"name": "call_batch",
+				"type": "function",
+				"async": true,
+				"parameters": [
+					{
+						"name": "batchname",
+						"type": "string"
+					},
+					{
+						"name": "args",
+						"type": "array",
+						"items": { "type": "string" }
+				  }
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,22 @@
+.popup-page.headline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.headline {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.header {
+    font-weight: bold
+}
+
+.grid-container div {
+/*    margin: 1ex; */
+}
+

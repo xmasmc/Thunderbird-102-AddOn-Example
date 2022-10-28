@@ -1,0 +1,44 @@
+{
+	"manifest_version": 2,
+	"name": "Sample Shows use of experiment API to call batch",
+	"description": "shows email body or call batch",
+	"version": "1.0",
+	"author": "X-MAS MC",
+	"applications": {
+		"gecko": {
+			"id": "sample_callCMD@xmas1.at",
+			"strict_min_version": "102.0"
+		}
+	},
+	"background": {
+		"scripts": [
+			"js/background.js"
+		]
+	},
+	"permissions": [
+		"messagesRead"
+	],
+	"browser_action": {
+		"default_popup": "mainPopup.html",
+		"default_title": "Mail Information",
+		"default_icon": "images/symbol_xmas_gelb.gif"
+	},
+	"message_display_action": {
+    	"default_popup": "messagePopup.html",
+    	"default_title": "Call batch",
+		"default_icon": "images/symbol_xmas_rot.gif"
+	},
+	"icons": {
+      "64": "images/symbol_xmas_rot.gif"
+	},
+	"experiment_apis": {
+		"xmasapi": {
+			"schema": "xmasapi/schema.json",
+      	"parent": {
+				"scopes": [ "addon_parent" ],
+				"paths": [ [ "xmasapi" ] ],
+				"script": "xmasapi/implementation.js"
+			}
+      }
+   }
+}
