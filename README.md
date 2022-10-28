@@ -7,7 +7,8 @@ Example Thunderbird AddOn which creates two buttons:
 
 For testing the AddOn, you have to copy the batch file to your PC: D:\Sample_call.bat
 
-This example use the new Thunderbird interface with experiments
+This example use the new Thunderbird interface with experiments.
+
 Because of the very poor documentation for development of Thunderbird AddOns, I put this example here
 
 For testing you can use Sample_callCMD.xpi
