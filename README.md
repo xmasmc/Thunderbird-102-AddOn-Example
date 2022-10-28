@@ -5,10 +5,10 @@ Example Thunderbird AddOn which creates two buttons:
   - from (email address)
   - mail text
 
-For testing the AddOn, you have to copy the batch file to your PC: D:\Sample_call.bat
+For testing the AddOn, you have to copy the batch file from batch/Sample_call.bat to your PC: D:\Sample_call.bat
 
 This example use the new Thunderbird interface with experiments.
 
 Because of the very poor documentation for development of Thunderbird AddOns, I put this example here
 
-For testing you can use Sample_callCMD.xpi
+For testing you can use AddOn/Sample_callCMD.xpi
